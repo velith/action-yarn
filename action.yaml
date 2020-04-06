@@ -1,0 +1,5 @@
+name: 'GitHub Action for yarn'
+description: 'Run a command using yarn'
+runs:
+  using: 'docker'
+  image: 'docker://velith/yarn-action:1.0'
